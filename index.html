@@ -1,0 +1,396 @@
+<html lang="en">
+	<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Nick Reyno</title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+
+		<!-- font awesome icons -->
+		<script src="https://kit.fontawesome.com/8ffef1b7fa.js" crossorigin="anonymous"></script>
+
+	<!-- sweet alerts --> 
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+		<!-- jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.4.0.min.js"
+			integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+			crossorigin="anonymous"
+		></script>
+		<!-- scrolling functionality -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+
+		<!-- devicon library -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+		/>
+		<!-- scss styles -->
+		<link rel="stylesheet" href="./styles/style.css" />
+	</head>
+	<body class="lightTheme">
+		<header>
+			<div class="decoration decoration1"></div>
+			<div class="decoration decoration2"></div>
+			<div class="decoration decoration3"></div>
+			<div class="decoration decoration4"></div>
+			<div class="decoration decoration5"></div>
+		</header>
+		<div class="wrapper">
+			<aside class="lightTheme">
+				<div class="imgContainer">
+					<img src="./assets/profilePhoto.png" alt="profile picture of Nick Reyno" />
+				</div>
+				<button class="hamburgerMenu">
+					<span class="srOnly">Menu</span>
+					<span class="bar barOne" aria-hidden="true"></span>
+					<span class="bar barTwo" aria-hidden="true"></span>
+					<span class="bar barThree" aria-hidden="true"></span>
+				</button>
+				<nav>
+					<ul class="mobileCollapse">
+						<li class="nav1 lightThemeAfter">
+							<a href="#aboutMe" class="aboutMeLink">
+								<span><i class="fas fa-address-card" aria-hidden="true"></i></span>About Me</a
+							>
+						</li>
+						<li class="nav2 lightThemeAfter">
+							<a href="#portfolio" class="portfolioLink">
+								<span><i class="fas fa-briefcase" aria-hidden="true"></i></span>Portfolio</a
+							>
+						</li>
+						<li class="nav3 lightThemeAfter">
+							<a href="#skills" class="skillsLink">
+								<span><i class="fas fa-cog" aria-hidden="true"></i></span>Skills</a
+							>
+						</li>
+						<li class="nav4 lightThemeAfter">
+							<a href="#resume" class="resumeLink">
+								<span><i class="fas fa-bars"></i aria-hidden="true"></span>Resume</a
+							>
+						</li>
+						<li class="nav5 lightThemeAfter">
+							<a href="#contact" class="contactLink">
+								<span><i class="fas fa-envelope" aria-hidden="true"></i></span>Contact</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</aside>
+			<main>
+				<!-- <div class="content"> -->
+				<section class="section aboutMe lightTheme" id="aboutMe">
+					<h2 class="header1"><i class="fas fa-address-card"></i> about me</h2>
+					<div class="aboutMeContainer clearfix">
+						<div class="imgContainerMobile">
+							<img src="./assets/profilePhoto.png" alt="profile picture of Nick Reyno" />
+						</div>
+						<h1>Hey, I'm <span>Mike Bakhramov</span></h1>
+						<p class="blurb">
+							I'm a <span>front-end developer</span> in Los-Angeles California. Coding has become a
+							perfect union of my two favourite passions and I love seeing the results of my efforts helping the user's
+							experience. I’m finding unique solutions to complex problems and I’m doing it all while making
+							<span>the worst puns</span> you’ve never heard before.
+						</p>
+						<h3>Why Work With Me?</h3>
+						<ul>
+							<li><i class="fas fa-check" aria-hidden="true"></i>Analytical</li>
+							<li><i class="fas fa-check" aria-hidden="true"></i>Results driven</li>
+							<li><i class="fas fa-check" aria-hidden="true"></i>Clear communicator</li>
+							<li><i class="fas fa-check" aria-hidden="true"></i>Deadline conscious</li>
+							<li><i class="fas fa-check" aria-hidden="true"></i>Strong interpersonal skills</li>
+							<li><i class="fas fa-check" aria-hidden="true"></i>Big-picture problem solver</li>
+						</ul>
+					</div>
+				</section>
+				<section class="section portfolio lightTheme" id="portfolio">
+					<h2 class="header2"><i class="fas fa-briefcase"></i> portfolio</h2>
+
+					<div class="portfolioContainer">
+						<div class="projectContainer projectOne" tabindex="0">
+							<div class="project1Image imgContainer">
+								<img class="img1" src="./assets/whatDoYouKnow.png" alt="project 1" />
+							</div>
+
+							<div class="infoContainer">
+								<h3>eCommerce</h3>
+								<p>Store where you can buy a good clothes</p>
+								<ul>
+									<li>React</li>
+									<li>API</li>
+									<li>Firebase</li>
+								</ul>
+								<a href="https://tangerine-creponne-10694b.netlify.app/" rel="noopener" tabindex="0" target="_blank">live link</a> <a href="https://github.com/bmmukhridin/ecommerce-shop" rel="noopener" tabindex="0">github</a>
+							</div>
+						</div>
+						<!-- end of project 1 -->
+
+						<div class="projectContainer projectTwo" tabindex="0">
+							<div class="project2Image imgContainer">
+								<img class="img2" src="./assets/blackJack.png" alt="project 2" />
+							</div>
+							<div class="infoContainer">
+								<h3>Casino Reyno</h3>
+								<p>Classic blackjack application with a shop to spend your winnings</p>
+								<ul>
+									<li>jQuery</li>
+									<li>SCSS</li>
+								</ul>
+								<a href="https://nickreyno.github.io/nickReynoProject3/" rel="noopener" tabindex="0">live link</a> <a href="https://github.com/nickreyno/nickReynoProject3" rel="noopener" tabindex="0">github</a>
+							</div>
+						</div>
+						<!-- end of project 2 -->
+
+						<div class="projectContainer projectThree" tabindex="0">
+							<div class="project3Image imgContainer">
+								<img class="img3" src="./assets/willow.png" alt="project 3" />
+							</div>
+							<div class="infoContainer">
+								<h3>Willow</h3>
+								<p>multi-page client PSD conversion</p>
+								<ul>
+									<li>SCSS</li>
+									<li>HTML</li>
+								</ul>
+								<a href="https://nickreyno.com/willow/" rel="noopener" tabindex="0">live link</a> <a href="https://github.com/nickreyno/nickReynoProjectTwo" rel="noopener" tabindex="0">github</a>
+							</div>
+						</div>
+						<!-- end of project 3 -->
+						<div class="projectContainer projectFour" tabindex="0">
+							<div class="project4Image imgContainer">
+								<img class="img4" src="./assets/mixMeADrink.png" alt="project 4" />
+							</div>
+							<div class="infoContainer">
+								<h3>Mix me a Drink</h3>
+								<p>mixology app that helps users find new cocktails or mocktails</p>
+								<ul>
+									<li>jQuery</li>
+									<li>API</li>
+									<li>SCSS</li>
+								</ul>
+								<a href="https://nickreyno.github.io/mixMeADrink/" rel="noopener" tabindex="0">live link</a> <a href="https://github.com/nickreyno/mixMeADrink" rel="noopener" tabindex="0">github</a>
+							</div>
+						</div>
+						
+						<!-- end of project 4 -->
+					</div>
+					<!-- end of portfolio container -->
+				</section>
+				<!-- end of portfolio section -->
+				<section class="section skills lightTheme" id="skills">
+					<h2 class="header3"><i class="fas fa-cog"></i> skills</h2>
+					<ul>
+						<li class="skill1">
+							<div class="skill1">
+								<i class="devicon-html5-plain"></i>
+							</div>
+							<h3 class="skill1">HTML</h3>
+						</li>
+						<li class="skill2">
+							<div class="skill2">
+								<i class="devicon-css3-plain"></i>
+							</div>
+							<h3 class="skill2">CSS</h3>
+						</li>
+						<li class="skill3">
+							<div class="skill3">
+								<i class="fab fa-sass"></i>
+							</div>
+							<h3 class="skill3">SCSS</h3>
+						</li>
+						<li class="skill4">
+							<div class="skill4">
+								<i class="devicon-javascript-plain"></i>
+							</div>
+							<h3 class="skill4">Javascript</h3>
+						</li>
+						
+						<li class="skill1">
+							<div class="skill1">
+								<i class="devicon-react-original"></i>
+							</div>
+							<h3 class="skill1">React</h3>
+						</li>
+						<li class="skill2">
+							<div class="skill2">
+								<img class="firebaseSVG" src="./assets/firebase.svg" alt="firebase" />
+							</div>
+							<h3 class="skill2">Firebase</h3>
+						</li>
+						<li class="skill3">
+							<div class="skill3">
+								<i class="devicon-git-plain"></i>
+							</div>
+							<h3 class="skill3">Git</h3>
+						</li>
+						<li class="skill4">
+							<div class="skill4">
+								<img class="responsiveSVG" src="./assets/responsiveDesign.svg" alt="responsive design" />
+							</div>
+							<h3 class="skill4">Responsive</h3>
+						</li>
+						<li class="skill5">
+							<div class="skill5">
+								<i class="fas fa-universal-access"></i>
+							</div>
+							<h3 class="skill5">Accessible</h3>
+						</li>
+
+						<!-- <li >
+							<div class="skill2">
+								<i class="devicon-github-plain"></i>
+							</div>
+							<h3>Github</h3>
+						</li>
+						<li>
+							<div class="skill5">
+								<img src="./assets/api.svg" alt="RESTful API">
+							</div>
+							<h3>REST APIs</h3>
+						</li> -->
+					</ul>
+				</section>
+				<section class="section resume lightTheme" id="resume">
+					<h2 class="header4"><i class="fas fa-bars"></i> resume</h2>
+					<h3 class="resume1 activeResume" tabindex="0">Employment <span aria-hidden="true" class="dropDown"></span></h3>
+					<div class="resumeInfo employment">
+						<ul>
+							<li class="bulletPoint">
+								<h4>Production Crew Team Lead <span> – DJM Productions (Toronto, Ontario)</span></h4>
+								<p class="duration">
+									<time datetime="2016-08-01">August, 2016</time> - <time datetime="2019-10-01">October, 2019</time>
+								</p>
+								<p>
+									I led a team of 15 technicians to implement new practices focused on efficiency and crew morale. I
+									created sustainable growth of freelancers through excellent execution of over 30 shows per year and my
+									largest event was an 8 day festival that had over 12,000 attendees.
+								</p>
+							</li>
+							<li class="bulletPoint">
+								<h4>Journalist <span>– FSU Interrobang Newspaper (London, ON)</span></h4>
+								<p class="duration">
+									<time datetime="2014-09-01">September, 2014</time> -
+									<time datetime="2016-09-01">September, 2016</time>
+								</p>
+								<p>
+									I grew our readership through creatively written articles that resonated well with the readers. I also
+									edited colleague's stories to ensure they met our strict formatting guide and weekly deadlines.
+									Several of my articles were nominated for industry awards.
+								</p>
+							</li>
+							<li class="bulletPoint">
+								<h4>Storefront Service Manager <span>– Walmart (London, ON)</span></h4>
+								<p class="duration">
+									<time datetime="2013-09-01">September, 2013</time> -
+									<time datetime="2014-10-01">November, 2014</time>
+								</p>
+								<p>
+									I increased Walmart Mastercard applications by 20% through clear and effective training of new staff.
+									I also wrote break schedules and money transfers for a team of 24 cashiers.
+								</p>
+							</li>
+						</ul>
+						<!-- end ul main list -->
+					</div>
+					<h3 class="resume2" tabindex="0">Education <span aria-hidden="true" class="dropDown"></span></h3>
+					<div class="resumeInfo education">
+						<ul>
+							<li class="bulletPoint">
+								<h4>Web Development Certification<span> – Juno College of Technology</span></h4>
+								<p class="duration">
+									<time datetime="2020-01-01">January 2020</time> - <time datetime="2020-04-01">April 2020</time>
+								</p>
+							</li>
+							<li class="bulletPoint">
+								<h4>Part Time Javascript Fundamentals<span> – Juno College of Technology</span></h4>
+								<p class="duration">
+									<time datetime="2019-10-01">October 2019</time> - <time datetime="2019-12-01">December 2019</time>
+								</p>
+							</li>
+							<li class="bulletPoint">
+								<h4>Full Time Web Development Fundamentals<span> – Juno College of Technology</span></h4>
+								<p class="duration">
+									<time datetime="2019-07-01">July 2019</time> - <time datetime="2019-08-01">August 2019</time>
+								</p>
+							</li>
+							<li class="bulletPoint">
+								<h4>Audio Engineering Diploma<span> – Fanshawe College</span></h4>
+								<p class="duration">
+									<time datetime="2014-09-01">September 2014</time> - <time datetime="2016-05-01">May 2016</time>
+								</p>
+							</li>
+						</ul>
+					</div>
+					<h3 class="resume3" tabindex="0">Community Involvement <span aria-hidden="true" class="dropDown"></span></h3>
+					<div class="resumeInfo communityInvolvement">
+						<ul>
+							<li class="bulletPoint">
+								<h4>Kids in Danger Non-Profit <span>– Chicago</span></h4>
+								<p class="duration"><time datetime="2020-03-20">March, 2020</time> - <time datetime="2020-05-20">May, 2020</time> </p>
+								<p>
+									Part of the web development team for google chrome browser extension informing Amazon shoppers about safety concerns and product recalls for items they view. I helped refactor existing code and style components to client's specification while remaining WCAG compliant.
+								</p>
+							</li>
+							<li class="bulletPoint">
+								<h4>Lucknow's Music in the Fields <span>– (Lucknow, ON)</span></h4>
+								<p class="duration"><time datetime="2017-08-01">August, 2017</time> - Present</p>
+								<p>
+									Part of the festival production crew for this non-profit music event that directly supports local
+									charities, hospitals, schools, and regional projects. To date, the festival has donated over 1.3
+									million dollars to fight cystic fibrosis and is one of the largest Kinsmen events in Ontario.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="section contact lightTheme" id="contact">
+					<h2 class="header5"><i class="fas fa-envelope"></i> contact</h2>
+				
+					<form class="lightTheme" action="https://formspree.io/xnqbvrqw" method="POST" name="contact">
+						<label class="srOnly" for="name">name</label>
+						<input type="text" name="name" id="name" placeholder="Nick Reyno"  />
+						<label class="srOnly" for="email">email</label>
+						<input type="email" name="email" id="email" placeholder="nickrenoe@gmail.com"  />
+						<label class="srOnly" for="message">your message</label>
+						<textarea name="message" id="message" placeholder="Hey Nick,"  ></textarea>
+						<input type="submit" value="send" />
+					</form>
+					<p>You can also email me directly at <a href="mailto:nickrenoe@gmail.com">nickrenoe@gmail.com</a></p>
+				</section>
+			</main>
+			<footer class="buttonContainer lightTheme">
+				<button class="toggle lightTheme">
+					<span class="srOnly">toggle between light mode and dark mode</span>
+					<i class="fas fa-sun hide" aria-hidden="true"><span class="srOnly">Toggle from light more do dark mode</span></i>
+					<i class="fas fa-moon show" aria-hidden="true"><span class="srOnly"> toggle from dark mode to light mode</span></i>
+				</button>
+				<div class="socialContainer">
+					<a class="social twitter lightTheme" href="https://twitter.com/nickreyno" rel="noopener">
+						<span class="srOnly">link to my twitter</span>
+						<i class="fab fa-twitter" aria-hidden="true"></i>
+					</a>
+					<a class="social linkedIn lightTheme" href="https://www.linkedin.com/in/nickreyno/" rel="noopener">
+						<span class="srOnly">link to my linked in</span>
+						<i class="target fab fa-linkedin-in" aria-hidden="true">  </i>
+					</a>
+					<a class="social github lightTheme" href="https://github.com/nickreyno" rel="noopener">
+						<span class="srOnly">link to my github</span>
+						<i class="fab fa-github github" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="utilitiesContainer">
+					<a href="./assets/nick-reyno-web-developer-resume.pdf" class="download lightTheme">
+						<span class="srOnly">click here to download my resume</span>
+						<i class="fas fa-download"></i>
+					</a>
+				</div>
+			</footer>
+		</div>
+		<!-- end of wrapper -->
+
+		<script src="script.js"></script>
+	</body>
+</html>
